@@ -1,12 +1,9 @@
 j = input("Enter a string :")
 
-b = j.isdigit()
-
+ans = "no"
 
 for i in j:
-
-    if i == b:
-        print("yes")
-    else:
-        print("no")
-
+    if i.isdigit():
+        ans = "yes"
+        break
+print(ans)
