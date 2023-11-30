@@ -1,11 +1,8 @@
 a = input("Enter the string :")
-b = a.split()
-print(b)
 c = ""
-for i in b:
+for i in a:
     if i not in c:
         c += i
     else:
         continue
-
 print(c)
